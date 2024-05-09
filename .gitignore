@@ -1,1 +1,4 @@
 wabt/
+wasm_exec.js
+assets/*.wasm
+assets/*.js

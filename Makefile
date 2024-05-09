@@ -1,5 +1,5 @@
-install:
-	scripts/install.sh
+build:
+	scripts/build.sh
 
-start:
-	@echo "noop"
+start: build
+	go run src/server.go
